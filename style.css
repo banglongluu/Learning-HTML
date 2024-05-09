@@ -1,0 +1,23 @@
+button {
+    background: #f84a0b;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    border: 1px solid rgb(255, 255, 255);
+    border-left: none;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background: #0b7dda;
+  }
+#Find-product-header {
+    color:rgb(0, 60, 255);
+    font-family: Helvetica,sans-serif;
+    font-weight:bold;
+    font-size: larger;
+    
+}
+#Gallery {
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+#Image1 {filter: drop-shadow(0 0 0.75rem crimson);}
