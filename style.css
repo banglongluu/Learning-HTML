@@ -21,3 +21,64 @@ button:hover {
     filter: drop-shadow(30px 10px 4px #4444dd);
 }
 #Image1 {filter: drop-shadow(0 0 0.75rem crimson);}
+#Navigation {
+  background-color: #0038df;
+  border:#0038df;
+  overflow:hidden;
+  padding: 15px;
+  width: 100%;
+}
+
+#Navigation a {
+ color:rgb(255, 255, 255);
+ font-family: Helvetica,sans-serif;
+ font-weight:medium;
+ padding: 15px 20px;
+ text-align: center;
+ text-decoration:none;
+}
+#Navigation a:hover {
+  background-color: #ffffff;
+  color:rgb(98, 203, 255);
+
+}
+#Navigation ul {
+  float: right;
+  margin-right:50px;
+}
+#Navigation img {
+  float:left;
+  width: 30px;
+  height: auto;
+  margin-left:20px;
+
+}
+
+#Building-product {
+  display:flex;
+}
+#Building-product img {
+  border-radius: 20px;
+  padding: 10px
+
+}
+.product-item{
+  border-style: solid;
+  border: 0.25px solid rgb(0, 30, 255);
+}
+.product-item p,h4 {
+  padding-left: 20px;
+}
+.product-item button {
+  background-color: #0038df;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+}
+.product-item button:hover {
+  background-color:white;
+  color:#0038df;
+  border-style: solid;
+  border-color: #0038df;
+  border-width: 0.5px;
+
+}
